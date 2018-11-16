@@ -1,0 +1,24 @@
+{
+  "name": "auto-commit",
+  "version": "0.1.0",
+  "description": "auto commit project",
+  "keywords": [
+    "github",
+    "auto commit"
+  ],
+  "author": "Blaze",
+  "private": true,
+  "scripts": {
+    "run": "node lib/run.js"
+  },
+  "dependencies": {
+    "dayjs": "^1.7.5",
+    "fs-extra": "^7.0.0",
+    "simple-git": "^1.105.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 5.2.0"
+  }
+}
