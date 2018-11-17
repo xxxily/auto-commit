@@ -12,7 +12,7 @@
   "author": "Blaze",
   "private": true,
   "scripts": {
-    "run": "node lib/run.js"
+    "auto": "node lib/run.js"
   },
   "dependencies": {
     "dayjs": "^1.7.5",
