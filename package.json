@@ -4,7 +4,10 @@
   "description": "auto commit project",
   "keywords": [
     "github",
-    "auto commit"
+    "auto commit",
+    "nodejs",
+    "javascript",
+    "blaze"
   ],
   "author": "Blaze",
   "private": true,
