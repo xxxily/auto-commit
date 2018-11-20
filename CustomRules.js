@@ -883,6 +883,8 @@ class Handlers {
    * @param splitStr (string) -必选 分割字符串
    */
   public static function extractPathSection(fullUrl,splitStr) {
+    /*修正转义后正则字符串导致的BUG*/
+    splitStr = splitStr.replace(/\\\?/g,'?');
     return fullUrl.replace(splitStr,'|cutoff|').replace(/^.*\|cutoff\|/,'');
   }
 
@@ -1129,7 +1131,7 @@ class Handlers {
         }, "【replacePlus】配置出错，请检查你的配置");
       }
     }
-    
+
     // 高级替换
     var replacePlus = GLOBAL_SETTING.replacePlus;
     if (replacePlus && replacePlus.length > 0) {
