@@ -1,0 +1,8 @@
+[00:06:32][error] 获取更新失败~
+[00:06:32][error] Error: ssh_exchange_identification: read: Connection reset by peer
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[00:06:32] auto commit
+[00:06:32] maxCommitCount：3
