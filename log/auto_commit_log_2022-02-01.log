@@ -8,3 +8,12 @@ and the repository exists.
 [00:06:32] maxCommitCount：3
 [00:06:39] auto commit
 [00:06:39] maxCommitCount：10
+[00:06:45][error] 获取更新失败~
+[00:06:45][error] Error: ssh_exchange_identification: read: Connection reset by peer
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[00:06:45] auto commit
+[00:06:46] maxCommitCount：1
+[00:06:49] auto commit succeed
