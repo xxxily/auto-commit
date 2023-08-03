@@ -23,3 +23,21 @@ Connection closed by 20.205.243.166 port 22
 fatal: 无法读取远程仓库。
 
 请确认您有正确的访问权限并且仓库存在。
+[09:28:59][error] 获取更新失败~
+[09:28:59][error] Error: 提示：不建议在没有为偏离分支指定合并策略时执行 pull 操作。 您可以在执行下一次
+提示：pull 操作之前执行下面一条命令来抑制本消息：
+提示：
+提示：  git config pull.rebase false  # 合并（缺省策略）
+提示：  git config pull.rebase true   # 变基
+提示：  git config pull.ff only       # 仅快进
+提示：
+提示：您可以将 "git config" 替换为 "git config --global" 以便为所有仓库设置
+提示：缺省的配置项。您也可以在每次执行 pull 命令时添加 --rebase、--no-rebase，
+提示：或者 --ff-only 参数覆盖缺省设置。
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 20.205.243.166 port 22
+fatal: 无法读取远程仓库。
+
+请确认您有正确的访问权限并且仓库存在。
+[09:28:59] auto commit
+[09:28:59] maxCommitCount：6
