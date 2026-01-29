@@ -1,3 +1,6 @@
 [00:01:00] auto commit
 [00:01:00] maxCommitCount：10
 [00:01:02] auto commit succeed
+[00:03:05] auto commit
+[00:03:05] maxCommitCount：10
+[00:03:07] auto commit succeed
