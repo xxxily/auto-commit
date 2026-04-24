@@ -19,3 +19,12 @@ and the repository exists.
 [00:15:21] auto commit
 [00:15:21] maxCommitCount：5
 [00:15:24] auto commit succeed
+[00:17:28][error] 获取更新失败~
+[00:17:28][error] Error: ERROR: internal error performing authentication
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[00:17:28] auto commit
+[00:17:28] maxCommitCount：5
+[00:17:30] auto commit succeed
