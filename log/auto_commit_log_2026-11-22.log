@@ -25,3 +25,8 @@
 [20:49:55] auto commit
 [20:49:55] maxCommitCount：6
 [20:49:58] auto commit succeed
+[20:53:29][error] 获取更新失败~
+[20:53:29][error] Error: fatal: unable to access 'https://github.com/xxxily/auto-commit/': Error in the HTTP2 framing layer
+[20:53:29] auto commit
+[20:53:29] maxCommitCount：6
+[20:53:33] auto commit succeed
