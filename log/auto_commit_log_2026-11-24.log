@@ -32,3 +32,8 @@
 [00:13:51] auto commit
 [00:13:51] maxCommitCount：2
 [00:14:02] auto commit succeed
+[00:16:07][error] 获取更新失败~
+[00:16:07][error] Error: fatal: unable to access 'https://github.com/xxxily/auto-commit/': LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
+[00:16:07] auto commit
+[00:16:07] maxCommitCount：2
+[00:16:13] auto commit succeed
